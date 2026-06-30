@@ -2,61 +2,83 @@
 
 **Data Scientist & AI Engineer** | Rio de Janeiro, Brasil
 
-Construo soluções de Inteligência Artificial que resolvem problemas reais — de modelos de Machine Learning a produtos completos com IA integrada.
+Construo soluções de Inteligência Artificial que resolvem problemas reais — de modelos de Machine Learning a sistemas completos de IA **rodando 100% local**, sem depender de nuvem.
+
+> 📂 **Portfólio com case-studies e resultados:** [github.com/fernandopmarciano/Portfolio](https://github.com/fernandopmarciano/Portfolio)
 
 ---
 
 ## O que eu faço
 
-**Machine Learning & Deep Learning** — Modelos de classificação, NLP, Computer Vision e séries temporais aplicados a finanças, segurança e produtividade profissional.
+**Machine Learning & Deep Learning** — Classificação, NLP, Computer Vision e séries temporais aplicados a finanças, segurança e produtividade, sempre com rigor estatístico (walk-forward, blocked CV, intervalo de confiança).
 
-**Produtos de IA** — Plataformas full-stack com chatbots inteligentes, automações via WhatsApp e ferramentas de produtividade para profissionais e empresas.
+**Sistemas de IA local** — Assistentes e agentes com LLMs rodando no próprio hardware (llama.cpp + Vulkan), RAG híbrido e síntese de voz: privacidade total e custo zero de API.
+
+**Produtos de IA full-stack** — Plataformas completas com chatbots inteligentes, Text-to-Speech, autenticação e conformidade LGPD.
 
 ---
 
 ## Projetos em destaque
 
-### FM IA Solutions
-> Plataforma de produtos e serviços de IA para profissionais e empresas
+### 🤖 AVTP — Assistente Virtual Totalmente Privado
+> Assistente de IA conversacional rodando **100% no hardware local** — LLM, RAG, voz e 30+ ferramentas, sem nuvem e sem custo de API.
 
-Site comercial completo com chatbot inteligente (LLM), Text-to-Speech, sistema de autenticação, painel admin e conformidade LGPD.
+LLM local servido com llama.cpp/Vulkan numa RX 6600 (8 GB), RAG híbrido (BM25 + embeddings bge-m3), interface voice-first (PWA) e defesa contra prompt injection.
 
-`Next.js 16` `React 19` `TypeScript` `Tailwind CSS 4` `Groq/Llama 3.3 70B` `Google Cloud TTS` `Supabase` `SSE Streaming`
+**Destaques de engenharia:**
+- TTFT **~32–140 ms** e **~37 tok/s** em GPU de consumo (RX 6600)
+- **Speculative decoding** com ganho de **+40,9%** de throughput
+- **~975 testes** (507 adversariais de segurança)
+- Custo operacional **R$ 0/mês** (tudo local)
 
-**Destaques técnicos:**
+`Python` `llama.cpp` `Vulkan` `RAG (BM25 + bge-m3)` `TypeScript` `PWA`
+
+### 💬 Hermes — Assistente Pessoal no Telegram
+> Agente pessoal operando 24/7 com controle financeiro, agenda e automações.
+
+12 skills, 8 cron jobs e 124 testes E2E.
+
+`Node.js` `Telegram Bot API` `Docker`
+
+### 🚀 FM IA Solutions — Plataforma Comercial de IA
+> Site comercial completo com chatbot inteligente (LLM), Text-to-Speech e painel administrativo.
+
 - Chatbot com streaming em tempo real, rate limiting progressivo e armazenamento de conversas
 - Text-to-Speech com Google Cloud WaveNet (voz natural em pt-BR)
 - Arquitetura server-side para proteção de API keys
 - LGPD compliant: política de privacidade, retenção de dados, DPO, consentimento
 
-### Agentes de IA para WhatsApp
-> Automação de atendimento e gestão financeira via WhatsApp
-
-Dois sistemas independentes com IA conversacional, integração com WhatsApp Business API, agendamento automático e gestão financeira pessoal.
-
-`Node.js` `Google Gemini` `WhatsApp Business API` `Docker` `SQLite` `Google Calendar API`
+`Next.js 16` `React 19` `TypeScript` `Tailwind CSS 4` `Groq/Llama 3.3 70B` `Google Cloud TTS` `Supabase` `SSE Streaming`
 
 ---
 
-### Machine Learning & Data Science
+## Machine Learning & Data Science
 
 | Projeto | Área | Stack | Resultado |
 |---------|------|-------|-----------|
-| **Market Forecast** | Classificação / Finanças | XGBoost, Walk-Forward Validation, FastAPI | 59% acc, +547% retorno, Sharpe 1.80 |
-| **Logo Forgery Detection** | Computer Vision | Siamese Networks, EfficientNetV2-S, FAISS | AUC-ROC 0.97, F1 0.93 |
+| **Market Forecast** | Séries temporais / Finanças | Stacking Ensemble, Blocked Time-Series CV | 60,2% acc (±1,4%), Sharpe 2,31, +1368% retorno (IBOVESPA 2017–2024) |
+| **Fraud Detection** | Classificação desbalanceada | Random Forest, XGBoost, LightGBM | PR-AUC 0,9987 em 6,3M transações (0,13% de fraude) |
+| **Logo Forgery Detection** | Computer Vision | Siamese Networks, EfficientNetV2-S, FAISS | AUC-ROC 0,97, Recall@1 0,95 |
 | **NLP Sentiment** | NLP / Finanças | TF-IDF, Word2Vec, BERT, FinBERT | 4 abordagens comparadas |
+| **Rocket Landing RL** | Reinforcement Learning | Neuroevolução (GA), simulação 6DOF, Gymnasium | Pouso autônomo, currículo de 8 fases, 353 testes |
+
+> Resultados de backtest/simulação são educacionais e não constituem recomendação de investimento.
 
 ---
 
 ## Stack
 
-**ML/DL:** Python, PyTorch, scikit-learn, XGBoost, Hugging Face, FAISS
+**ML / DL:** Python, PyTorch, scikit-learn, XGBoost, Hugging Face, FAISS
 
-**Web & IA:** Next.js, React, TypeScript, Node.js, Tailwind CSS, Supabase
+**IA local:** llama.cpp, Vulkan, speculative decoding, RAG híbrido (BM25 + bge-m3), quantização GGUF
 
-**Infra:** Docker, Railway, Vercel, Google Cloud, Git/GitHub Actions
+**IA Generativa:** Groq (Llama 3.3 70B), Google Gemini, Google Cloud TTS, streaming SSE
 
-**IA Generativa:** Groq (Llama 3.3 70B), Google Gemini, Google Cloud TTS
+**Web & Full-Stack:** Next.js, React, TypeScript, Node.js, Tailwind CSS, Supabase
+
+**Validação & Rigor:** Walk-Forward, Blocked / Stratified CV, PR-AUC, Welch t-test, intervalo de confiança
+
+**Infra:** Docker, Railway, Vercel, Google Cloud, GitHub Actions
 
 ---
 
