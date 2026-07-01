@@ -1,8 +1,11 @@
 # Fernando Marciano
 
 **Data Scientist & AI Engineer** | Rio de Janeiro, Brasil
+*M.Sc. em Engenharia Elétrica (IA & Machine Learning) · Bacharelado em Física*
 
-Construo soluções de Inteligência Artificial que resolvem problemas reais — de modelos de Machine Learning a sistemas completos de IA **rodando 100% local**, sem depender de nuvem.
+Construo soluções de Inteligência Artificial que resolvem problemas reais — de modelos de Machine Learning a sistemas completos de IA rodando no próprio hardware.
+
+`TTFT ~32–140 ms em GPU consumer` · `Sharpe 2,31 em backtest de 8 anos` · `PR-AUC 0,9987 em 6,3M transações` · `~975 testes (507 adversariais)`
 
 > 📂 **Portfólio com case-studies e resultados:** [github.com/fernandopmarciano/Portfolio](https://github.com/fernandopmarciano/Portfolio)
 
@@ -57,9 +60,9 @@ LLM local servido com llama.cpp/Vulkan numa RX 6600 (8 GB), RAG híbrido (BM25 +
 | Projeto | Área | Stack | Resultado |
 |---------|------|-------|-----------|
 | **Market Forecast** | Séries temporais / Finanças | Stacking Ensemble, Blocked Time-Series CV | 60,2% acc (±1,4%), Sharpe 2,31, +1368% retorno (IBOVESPA 2017–2024) |
-| **Fraud Detection** | Classificação desbalanceada | Random Forest, XGBoost, LightGBM | PR-AUC 0,9987 em 6,3M transações (0,13% de fraude) |
-| **Logo Forgery Detection** | Computer Vision | Siamese Networks, EfficientNetV2-S, FAISS | AUC-ROC 0,97, Recall@1 0,95 |
-| **NLP Sentiment** | NLP / Finanças | TF-IDF, Word2Vec, BERT, FinBERT | 4 abordagens comparadas |
+| **Fraud Detection** | Classificação desbalanceada | Random Forest, XGBoost, LightGBM | RF PR-AUC 0,9987 (PaySim, 6,3M transações, 0,13% de fraude) |
+| **Logo Forgery Detection** | Computer Vision | Siamese Networks, EfficientNetV2-S, FAISS | AUC-ROC 0,97, Recall@1 0,95 (FlickrLogos-27) |
+| **NLP Sentiment** | NLP / Finanças | TF-IDF → Word2Vec → BERT → FinBERT | 4 níveis comparados no Financial PhraseBank (4.846 sentenças, 3 classes) |
 | **Rocket Landing RL** | Reinforcement Learning | Neuroevolução (GA), simulação 6DOF, Gymnasium | Pouso autônomo, currículo de 8 fases, 353 testes |
 
 > Resultados de backtest/simulação são educacionais e não constituem recomendação de investimento.
