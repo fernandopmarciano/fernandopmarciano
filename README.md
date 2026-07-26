@@ -1,11 +1,7 @@
 # Fernando Marciano
 
 **Data Scientist & AI Engineer** | Rio de Janeiro, Brasil
-*M.Sc. em Engenharia Elétrica (IA & Machine Learning) · Bacharelado em Física*
-
-Construo soluções de Inteligência Artificial que resolvem problemas reais — de modelos de Machine Learning a sistemas completos de IA rodando no próprio hardware.
-
-`TTFT ~32–140 ms em GPU consumer` · `Sharpe 2,31 em backtest de 8 anos` · `PR-AUC 0,9987 em 6,3M transações` · `~975 testes (507 adversariais)`
+*M.Sc. em Engenharia Elétrica (IA & Machine Learning) [COPPE - UFRJ] · Bacharelado em Física [UERJ]*
 
 > 📂 **Portfólio com case-studies e resultados:** [github.com/fernandopmarciano/Portfolio](https://github.com/fernandopmarciano/Portfolio)
 
@@ -13,9 +9,9 @@ Construo soluções de Inteligência Artificial que resolvem problemas reais —
 
 ## O que eu faço
 
-**Machine Learning & Deep Learning** — Classificação, NLP, Computer Vision e séries temporais aplicados a finanças, segurança e produtividade, sempre com rigor estatístico (walk-forward, blocked CV, intervalo de confiança).
+**Machine Learning & Deep Learning** — Classificação, NLP, Computer Vision e séries temporais.
 
-**Sistemas de IA local** — Assistentes e agentes com LLMs rodando no próprio hardware (llama.cpp + Vulkan), RAG híbrido e síntese de voz: privacidade total e custo zero de API.
+**Sistemas de IA local** — Assistentes e agentes com LLMs rodando no próprio hardware (llama.cpp + Vulkan), RAG híbrido e síntese de voz: privacidade e custo zero de API.
 
 **Produtos de IA full-stack** — Plataformas completas com chatbots inteligentes, Text-to-Speech, autenticação e conformidade LGPD.
 
@@ -24,9 +20,9 @@ Construo soluções de Inteligência Artificial que resolvem problemas reais —
 ## Projetos em destaque
 
 ### 🤖 AVTP — Assistente Virtual Totalmente Privado
-> Assistente de IA conversacional rodando **100% no hardware local** — LLM, RAG, voz e 30+ ferramentas, sem nuvem e sem custo de API.
+> Assistente de IA conversacional rodando 100% no hardware local — LLM, RAG, voz e 30+ tools criadas por mim, sem nuvem e sem custo de API.
 
-LLM local servido com llama.cpp/Vulkan numa RX 6600 (8 GB), RAG híbrido (BM25 + embeddings bge-m3), interface voice-first (PWA) e defesa contra prompt injection.
+LLM local servido com llama.cpp/Vulkan numa RX 6600 (8 GB) [ :( ], RAG híbrido, interface voice-first e defesa contra prompt injection.
 
 **Destaques de engenharia:**
 - TTFT **~32–140 ms** e **~37 tok/s** em GPU de consumo (RX 6600)
@@ -34,14 +30,10 @@ LLM local servido com llama.cpp/Vulkan numa RX 6600 (8 GB), RAG híbrido (BM25 +
 - **~975 testes** (507 adversariais de segurança)
 - Custo operacional **R$ 0/mês** (tudo local)
 
-`Python` `llama.cpp` `Vulkan` `RAG (BM25 + bge-m3)` `TypeScript` `PWA`
-
 ### 💬 Hermes — Assistente Pessoal no Telegram
 > Agente pessoal operando 24/7 com controle financeiro, agenda e automações.
 
 12 skills, 8 cron jobs e 124 testes E2E.
-
-`Node.js` `Telegram Bot API` `Docker`
 
 ### 🚀 FM IA Solutions — Plataforma Comercial de IA
 > Site comercial completo com chatbot inteligente (LLM), Text-to-Speech e painel administrativo.
@@ -51,15 +43,13 @@ LLM local servido com llama.cpp/Vulkan numa RX 6600 (8 GB), RAG híbrido (BM25 +
 - Arquitetura server-side para proteção de API keys
 - LGPD compliant: política de privacidade, retenção de dados, DPO, consentimento
 
-`Next.js 16` `React 19` `TypeScript` `Tailwind CSS 4` `Groq/Llama 3.3 70B` `Google Cloud TTS` `Supabase` `SSE Streaming`
-
 ---
 
 ## Machine Learning & Data Science
 
 | Projeto | Área | Stack | Resultado |
 |---------|------|-------|-----------|
-| **Market Forecast** | Séries temporais / Finanças | Stacking Ensemble, Blocked Time-Series CV | 60,2% acc (±1,4%), Sharpe 2,31, +1368% retorno (IBOVESPA 2017–2024) |
+| **Market Forecast** | Séries temporais / Finanças | Stacking Ensemble, Time-Series CV | 60,2% acc (±1,4%), Sharpe 2,31, +1368% retorno (IBOVESPA 2017–2024) |
 | **Fraud Detection** | Classificação desbalanceada | Random Forest, XGBoost, LightGBM | RF PR-AUC 0,9987 (PaySim, 6,3M transações, 0,13% de fraude) |
 | **Logo Forgery Detection** | Computer Vision | Siamese Networks, EfficientNetV2-S, FAISS | AUC-ROC 0,97, Recall@1 0,95 (FlickrLogos-27) |
 | **NLP Sentiment** | NLP / Finanças | TF-IDF → Word2Vec → BERT → FinBERT | 4 níveis comparados no Financial PhraseBank (4.846 sentenças, 3 classes) |
