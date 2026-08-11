@@ -76,4 +76,4 @@
 ## Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-fernandopmarciano-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernandopmarciano/)
-[![Email](https://img.shields.io/badge/Email-contato%40fmiasolutions.com.br-EA4335?logo=gmail&logoColor=white)](mailto:fe.pmarciano@gmail.com)
+[![Email](https://img.shields.io/badge/Email-fe.pmarciano%40gmail.com.br-EA4335?logo=gmail&logoColor=white)](mailto:fe.pmarciano@gmail.com)
