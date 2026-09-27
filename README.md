@@ -9,11 +9,11 @@
 
 ## O que eu faço
 
-**Machine Learning & Deep Learning** — Classificação, NLP, Computer Vision e séries temporais.
+**Machine Learning & Deep Learning** — Classificação, NLP, visão computacional e séries temporais.
 
 **Sistemas de IA local** — Assistentes e agentes com LLMs rodando no próprio hardware, RAG híbrido e síntese de voz: privacidade e custo zero de API.
 
-**Produtos de IA full-stack** — Plataformas completas com chatbots inteligentes, Text-to-Speech, autenticação e conformidade LGPD.
+**Plataforma de IA full-stack** — Plataformas completas com chatbots inteligentes, Text-to-Speech, autenticação e conformidade LGPD.
 
 ---
 
@@ -35,8 +35,8 @@
 
 - 12 skills, 8 cron jobs e 124 testes E2E.
 
-### 🚀 FM IA Solutions — Plataforma Comercial de IA
-> Site comercial completo com chatbot inteligente (LLM), Text-to-Speech e painel administrativo.
+### 🚀 FM IA Solutions — Plataforma de IA
+> Site completo com chatbot inteligente (LLM), Text-to-Speech e painel administrativo.
 
 - Chatbot com streaming em tempo real, rate limiting progressivo e armazenamento de conversas;
 - Text-to-Speech com Google Cloud WaveNet (voz natural pt-BR);
@@ -61,7 +61,7 @@
 
 ## Stack
 
-**ML / DL:** Python, PyTorch, scikit-learn, XGBoost, Hugging Face, FAISS
+**ML / DL:** Python, PyTorch, scikit-learn, TensorFlow , XGBoost, Hugging Face, FAISS
 
 **IA local:** llama.cpp, Vulkan, speculative decoding, RAG híbrido, quantização GGUF
 
