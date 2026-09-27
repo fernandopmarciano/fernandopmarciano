@@ -54,6 +54,7 @@
 | **Logo Forgery Detection** | Computer Vision | Siamese Networks, EfficientNetV2-S, FAISS | AUC-ROC 0,97, Recall@1 0,95 (FlickrLogos-27 Kaggle database) |
 | **NLP Sentiment** | NLP / Finanças | TF-IDF → Word2Vec → BERT → FinBERT | 4 níveis comparados no Financial PhraseBank Kaggle database (4.846 sentenças, 3 classes) |
 | **Rocket Landing RL** | Reinforcement Learning | simulação 6DOF criada do zero, Neuroevolução (GA), Gymnasium | Pouso autônomo, currículo de 8 fases, 353 testes |
+| **Pokémon TCG Agent** | Agentes / Metodologia de medição | Python, engine cabt, replicatas com IC 95%, teste de Welch | Pokémon TCG AI Battle Challenge (trilha Strategy, encerrada em 13/09/2026): 37 pp de vitória atribuídos ao agente pertenciam às cartas; sem política dos dois lados, a lista sozinha vence 89,2% [88,0; 90,2] |
 
 > Resultados de backtest/simulação são educacionais e não constituem recomendação de investimento.
 
